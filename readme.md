@@ -1,6 +1,6 @@
 # <div align="center"><img src="./icon.png" width=256><br>alfred-say</div>
 
-> :speaking_head_in_silhouette: Say something!
+> :lips: Say something!
 
 
 ## Install
