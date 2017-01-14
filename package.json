@@ -1,0 +1,53 @@
+{
+  "name": "alfred-say",
+  "version": "0.1.0",
+  "description": "Say something!",
+  "license": "MIT",
+  "repository": "importre/alfred-say",
+  "author": {
+    "name": "",
+    "email": "jaeweheo@gmail.com",
+    "url": "importre.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist",
+    "say.js",
+    "saykr.png",
+    "sayus.png",
+    ""
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "say",
+    "tts",
+    "text",
+    "speech"
+  ],
+  "dependencies": {
+    "alfy": "^0.6.0"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^0.15.2",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true,
+    "rules": {
+      "babel/new-cap": "off",
+      "no-undef": "off",
+      "no-unused-vars": "off"
+    }
+  }
+}
