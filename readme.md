@@ -35,5 +35,5 @@ Then type your message, <kbd>Enter</kbd>
 
 ## License
 
-MIT © [](http://importre.com)
+MIT © [Jaewe Heo](http://importre.com)
 
